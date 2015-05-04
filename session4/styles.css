@@ -1,0 +1,25 @@
+.icon_masked_disabled{
+	background: url('imgs/icon_toggle_masked_disabled.png') no-repeat 0 0px;
+	width:20px;
+	height:12px;
+	display: block;
+}
+.icon_masked{
+	background: url('imgs/icon_toggle_masked.png') no-repeat 0 0px;
+	width:20px;
+	height:12px;
+	display: block;
+}
+
+.icon{
+	background: url('imgs/input-mask.png') no-repeat 0 -40px;
+	width:20px;
+	height:12px;
+	display: block;
+}
+.masked{
+	background-position: 0 0px;
+}
+.unmasked{
+	background-position: 0 -20px;
+}
