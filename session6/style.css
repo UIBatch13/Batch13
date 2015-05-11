@@ -1,0 +1,17 @@
+body {
+	margin:0px;
+	padding:0px;
+	line-height:16px;
+	font:14px Arial, Helvetica, sans-serif
+}
+
+.box{
+	border:1px solid #cacaca;
+	height:100px;
+	width:100px;
+	margin:30px;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px #cacaca;
+	-webkit-box-shadow:2px 2px 2px #cacaca;
+	-moz-box-shadow:2px 2px 2px #cacaca;
+}
