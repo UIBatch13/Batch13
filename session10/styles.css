@@ -1,0 +1,15 @@
+.container{
+    border:1px solid red;
+    height:500px;
+    width:500px;
+    position: relative;
+}
+.box,.box1{
+    border:1px solid blue;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:10px;
+    left:10px;
+
+}
