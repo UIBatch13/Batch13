@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../assets/jquery-1.11.3.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+        })
+        function assendingArray(){
+
+
+            var nums = $('input');
+            var arr= [];
+            $.each(nums,function(i,element){
+                    arr.push($(element).val())
+            })
+            arr.sort();
+            return arr;
+        }
+        function getMax(){
+          var arr =  assendingArray();
+            console.log(arr);
+        }
+    </script>
+</head>
+<body>
+<p><input type="text" id="number1" /> </p>
+<p><input type="text" id="number2" /> </p>
+<p><input type="text" id="number3" /> </p>
+<button type="button" onclick="getMax()">Find Max</button>
+<button type="button" onclick="getMin()">Find Min</button>
+</body>
+</html>
